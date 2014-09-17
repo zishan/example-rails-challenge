@@ -22,6 +22,7 @@ def create_charge(customer_id, paid, disputed)
 	)
 end
 
+# zahmad: ASSUME SUCCESSFUL MEANS PAID AND NOT REFUNDED
 # 10 Should be successful transactions:
 #   - 5 Should be linked to Customer 1
 5.times do
@@ -37,6 +38,7 @@ create_charge(3, true, false)
 create_charge(4, true, false)
 
 
+# zahmad: ASSUME FAILED MEANS NOT PAID
 # 5 Should be transactions that failed:
 #   - 3 Should be linked to Customer 3
 3.times do
@@ -48,7 +50,7 @@ end
 end
 
 
-# zahmad: ASSUME DISPUTED MEANS PAID + REFUNDED
+# zahmad: ASSUME DISPUTED MEANS PAID AND REFUNDED
 # 5 should be disputed:
 #   - 3 should be linked to Customer 1
 3.times do
