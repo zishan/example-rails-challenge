@@ -1,0 +1,16 @@
+<%= render partial: 'charges', locals: {title: 'Failed Charges', charges: @failed_charges} %>
+<%= render partial: 'charges', locals: {title: 'Disputed Charges', charges: @disputed_charges} %>
+
+<h1>Successful Charges</h1>
+
+<table class="charges successful_charges">
+  <tbody>
+    <% @successful_charges.each do |charge| %>
+      <tr class="successful_charges">
+        <td><%= Money.new(charge.amount, charge.currency).amount %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>

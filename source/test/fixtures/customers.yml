@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+    id: 1
+    first_nm: Johnny
+    last_nm: Flow
+
+two:
+    id: 2
+    first_nm: Raj
+    last_nm: Jamnis
+
+three:
+    id: 3
+    first_nm: Andrew
+    last_nm: Chung
+
+four:
+    id: 4
+    first_nm: Mike
+    last_nm: Smith

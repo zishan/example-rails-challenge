@@ -1,0 +1,181 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+    id: 1
+    created: 2014-09-17 17:46:45.986866000 Z
+    paid: true
+    amount: 10752
+    currency: usd
+    refunded: false
+    customer_id: 1
+
+two:
+    id: 2
+    created: 2014-09-17 17:46:46.001314000 Z
+    paid: true
+    amount: 14288
+    currency: usd
+    refunded: false
+    customer_id: 1
+
+three:
+    id: 3
+    created: 2014-09-17 17:46:46.004312000 Z
+    paid: true
+    amount: 6927
+    currency: usd
+    refunded: false
+    customer_id: 1
+
+four:
+    id: 4
+    created: 2014-09-17 17:46:46.006478000 Z
+    paid: true
+    amount: 10508
+    currency: usd
+    refunded: false
+    customer_id: 1
+
+five:
+    id: 5
+    created: 2014-09-17 17:46:46.008571000 Z
+    paid: true
+    amount: 9899
+    currency: usd
+    refunded: false
+    customer_id: 1
+
+six:
+    id: 6
+    created: 2014-09-17 17:46:46.023150000 Z
+    paid: true
+    amount: 16462
+    currency: usd
+    refunded: false
+    customer_id: 2
+
+seven:
+    id: 7
+    created: 2014-09-17 17:46:46.025022000 Z
+    paid: true
+    amount: 9655
+    currency: usd
+    refunded: false
+    customer_id: 2
+
+eight:
+    id: 8
+    created: 2014-09-17 17:46:46.026949000 Z
+    paid: true
+    amount: 19600
+    currency: usd
+    refunded: false
+    customer_id: 2
+
+nine:
+    id: 9
+    created: 2014-09-17 17:46:46.028825000 Z
+    paid: true
+    amount: 17438
+    currency: usd
+    refunded: false
+    customer_id: 3
+
+ten:
+    id: 10
+    created: 2014-09-17 17:46:46.030761000 Z
+    paid: true
+    amount: 14791
+    currency: usd
+    refunded: false
+    customer_id: 4
+
+eleven:
+    id: 11
+    created: 2014-09-17 17:46:46.032825000 Z
+    paid: false
+    amount: 7321
+    currency: usd
+    refunded: false
+    customer_id: 3
+
+twelve:
+    id: 12
+    created: 2014-09-17 17:46:46.035036000 Z
+    paid: false
+    amount: 18756
+    currency: usd
+    refunded: false
+    customer_id: 3
+
+thirteen:
+    id: 13
+    created: 2014-09-17 17:46:46.037545000 Z
+    paid: false
+    amount: 16499
+    currency: usd
+    refunded: false
+    customer_id: 3
+
+fourteen:
+    id: 14
+    created: 2014-09-17 17:46:46.039602000 Z
+    paid: false
+    amount: 19712
+    currency: usd
+    refunded: false
+    customer_id: 4
+
+fifteen:
+    id: 15
+    created: 2014-09-17 17:46:46.041604000 Z
+    paid: false
+    amount: 13511
+    currency: usd
+    refunded: false
+    customer_id: 4
+
+sixteen:
+    id: 16
+    created: 2014-09-17 17:46:46.043493000 Z
+    paid: true
+    amount: 16434
+    currency: usd
+    refunded: true
+    customer_id: 1
+
+seventeen:
+    id: 17
+    created: 2014-09-17 17:46:46.045474000 Z
+    paid: true
+    amount: 8086
+    currency: usd
+    refunded: true
+    customer_id: 1
+
+eighteen:
+    id: 18
+    created: 2014-09-17 17:46:46.047459000 Z
+    paid: true
+    amount: 7557
+    currency: usd
+    refunded: true
+    customer_id: 1
+
+nineteen:
+    id: 19
+    created: 2014-09-17 17:46:46.049394000 Z
+    paid: true
+    amount: 2554
+    currency: usd
+    refunded: true
+    customer_id: 1
+
+twenty:
+    id: 20
+    created: 2014-09-17 17:46:46.051412000 Z
+    paid: true
+    amount: 17451
+    currency: usd
+    refunded: true
+    customer_id: 1

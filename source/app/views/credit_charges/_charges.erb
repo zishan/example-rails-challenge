@@ -1,0 +1,23 @@
+<h1><%= title %></h1>
+
+<table class="charges <%= title.gsub(/( )/, '_').downcase %>">
+  <thead>
+    <tr>
+      <th>Customer</th>
+      <th>Amount</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% charges.each do |charge| %>
+      <tr class="<%= title.gsub(/( )/, '_').downcase %>">
+        <td><%= charge.customer.name %></td>
+        <td><%= Money.new(charge.amount, charge.currency).amount %></td>
+        <td><%= charge.created.to_date %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
