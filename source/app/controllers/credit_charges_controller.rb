@@ -4,12 +4,9 @@ class CreditChargesController < ApplicationController
   # GET /credit_charges
   # GET /credit_charges.json
   def index
-    # zahmad: ASSUME FAILED MEANS NOT PAID
-    @failed_charges = CreditCharge.where(paid: false)
-    # zahmad: ASSUME DISPUTED MEANS PAID AND REFUNDED
-    @disputed_charges = CreditCharge.where(paid: true, refunded: true)
-    # zahmad: ASSUME SUCCESSFUL MEANS PAID AND NOT REFUNDED
-    @successful_charges = CreditCharge.where(paid: true, refunded: false)
+    @failed_charges = CreditCharge.failed_charges
+    @disputed_charges = CreditCharge.disputed_charges
+    @successful_charges = CreditCharge.successful_charges
   end
 
   # GET /credit_charges/1

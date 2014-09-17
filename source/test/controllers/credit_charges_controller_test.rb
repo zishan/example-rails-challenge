@@ -8,9 +8,9 @@ class CreditChargesControllerTest < ActionController::TestCase
 	test "should get index" do
 		get :index
 		assert_response :success
-		assert_equal assigns(:failed_charges), CreditCharge.where(paid: false)
-		assert_equal assigns(:disputed_charges), CreditCharge.where(paid: true, refunded: true)
-		assert_equal assigns(:successful_charges), CreditCharge.where(paid: true, refunded: false)
+		assert_equal assigns(:failed_charges), CreditCharge.failed_charges
+		assert_equal assigns(:disputed_charges), CreditCharge.disputed_charges
+		assert_equal assigns(:successful_charges), CreditCharge.successful_charges
 
 		# Verify that there are three lists on the screen
 		assert_select 'table.charges', 3
